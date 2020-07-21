@@ -1,0 +1,59 @@
+body, html{
+    height: 100%;
+    margin:0;
+    font-size: 20px;    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.8em;
+    color: black;
+}
+
+.pimg1{
+    background-image: url("../images/daylight-forest-glossy-lake-443446.jpg");
+    min-height: 100%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: lightgoldenrodyellow;
+}
+
+.ptext{
+    position: absolute;
+    background-color: black;
+    padding: 50px;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: floralwhite;
+    font-size: larger;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+@media(max-width: 500px){
+    .section{
+        text-align: center;
+        padding: 10px;
+        border-style: solid;
+        border-color: brown;
+        border-width: 2px;
+        line-height: 1.2em;
+    }
+    .pimg1{
+        background-image: url(../images/blue-and-green-sky-and-mountain-3617500.jpg);
+        background-attachment: scroll;
+        opacity: 0.80;
+        background-position: 90%;
+    }
+}
